@@ -27,4 +27,4 @@ def stop_device_monitor():
     deviceMonitor.stop()
 
 def get_devices():
-    return deviceMonitor.get_devices()
+    return deviceMonitor.get_devices() or []
